@@ -23,7 +23,7 @@ public class LoadTestClient {
     private static final String BASE_URL = "http://localhost:9000/api/v1";
     private static final String BASE_ORIGINAL_URL = "http://mydomain.com/";
     private static final int THREAD_COUNT = 10;
-    private static final int REQUEST_COUNT = 1000;
+    private static final int REQUEST_COUNT = 10000;
     private static final double REQUESTS_PER_SECOND = 30.0;  // Throttle rate
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
