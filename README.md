@@ -15,7 +15,7 @@ URL shortener test client
 
 ## Overview
 
-The URL Shortener test client a simple application that makes load calls to URL Shortener Service
+The URL Shortener test client is a simple application that makes load calls to URL Shortener Service
 
 ## Features
 
@@ -41,7 +41,13 @@ The URL Shortener test client a simple application that makes load calls to URL 
 
     ```sh
     git clone https://github.com/bliu1972/URL-shortening-test-client.git
-    cd URL-shortening
+    cd URL-shortening-test-client
+    ```
+
+2. **Build the project using Maven:**
+
+    ```sh
+    mvn clean package
     ```
 
 ### Running the Application
